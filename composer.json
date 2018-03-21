@@ -1,0 +1,23 @@
+{
+    "name": "TS/MaterialDatagrid",
+    "version": "0.0.1",
+    "type": "library",
+    "description": "Materialized Ublaboo's great datagrid",
+    "authors": [
+        {
+            "name": "Tom Svoboda",
+            "email": "github@tomsvoboda.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ublaboo/datagrid": "^5.5"
+    },
+    "require-dev": {
+        "nette/tester": "dev"
+    },
+    "autoload": {
+        "psr-4": { "TS\\MaterialDatagrid\\": "src/" }
+    }
+}
