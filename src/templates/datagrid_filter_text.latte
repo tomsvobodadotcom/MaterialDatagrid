@@ -1,0 +1,11 @@
+{**
+ * @param Filter                         $filter
+ * @param Nette\Forms\Controls\TextInput $input
+*}
+
+{if $outer}
+        {input $input}
+        {label $input /}
+{else}
+    {input $input, placeholder => "Filtrovat"}
+{/if}

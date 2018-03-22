@@ -1,0 +1,19 @@
+{**
+ * @param Filter                $filter
+ * @param Nette\Forms\Container $input
+ * @param string                $icon_prefix       Icon prefix (fa fa-)
+*}
+
+{var $container = $input}
+
+{if $outer}
+    {label $container['from'] /}
+    {input $container['from'], style => 'width: 35%', class => datepicker}
+    &nbsp;&nbsp;
+    &mdash;
+    &nbsp;&nbsp;
+    {input $container['to'], style => 'width: 35%', class => datepicker} 
+{else}
+    {input $container['from'], class => datepicker}
+    {input $container['to'], class => datepicker}
+{/if}

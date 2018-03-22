@@ -1,0 +1,105 @@
+.datagrid table thead tr.row-group-actions .datagrid-selected-rows-count {
+    margin-left: 0.3em;
+}
+
+.datagrid table thead tr th {
+    font-size: 90%;
+    vertical-align: top;
+}
+
+.datagrid table thead tr th hr {
+    margin: 8px -8px;
+}
+
+.datagrid table thead tr th .datagrid-column-header-additions {
+    float: right;
+}
+
+.datagrid table thead tr th .datagrid-column-header-additions a[data-datagrid-reset-filter-by-column] {
+    margin-left: 0.3em;
+    color: #858585;
+}
+
+.datagrid table thead tr th .datagrid-column-header-additions .column-settings-menu {
+    opacity: 0;
+    cursor: pointer;
+    margin-left: 2px;
+    display: inline-block;
+}
+
+.datagrid table thead tr th .datagrid-column-header-additions .column-settings-menu .dropdown-menu {
+    font-size: 12px;
+}
+
+.datagrid table thead tr th .datagrid-column-header-additions .column-settings-menu .dropdown-menu li .fa {
+    margin-right: 0.5em;
+}
+
+.datagrid table thead tr th .datagrid-column-header-additions .column-settings-menu {
+    opacity: 0;
+    cursor: pointer;
+    margin-left: 2px;
+    display: inline-block;
+}
+
+.datagrid .datagrid-row-inline-add.datagrid-row-inline-add-hidden {
+  display: none;
+}
+
+.datagrid table th.col-action,
+.datagrid table td.col-action {
+  white-space: nowrap;
+  width: 10px;
+}
+
+.datagrid .datagrid-toolbar {
+    display: inline-block;
+    float: right;
+}
+
+.datagrid table thead tr th:hover .column-settings-menu {
+    opacity: 1;
+}
+
+.datagrid td, .datagrid th {
+    padding: 10px 5px;
+}
+
+.datagrid tr.filter th {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.datagrid tr input:not([type]), 
+.datagrid tr  input[type=text]:not(.browser-default), 
+.datagrid tr  input[type=password]:not(.browser-default), 
+.datagrid tr  input[type=email]:not(.browser-default), 
+.datagrid tr  input[type=url]:not(.browser-default), 
+.datagrid tr  input[type=time]:not(.browser-default), 
+.datagrid tr  input[type=date]:not(.browser-default), 
+.datagrid tr  input[type=datetime]:not(.browser-default), 
+.datagrid tr  input[type=datetime-local]:not(.browser-default),
+.datagrid tr  input[type=tel]:not(.browser-default), 
+.datagrid tr  input[type=number]:not(.browser-default),
+.datagrid tr  input[type=search]:not(.browser-default),
+.datagrid tr  textarea.materialize-textarea {
+    height: 2rem;
+}
+
+.datagrid .datagrid-per-page-submit {
+    display: none;
+}
+
+.datagrid .collapse {
+    display: none;
+}
+
+.datagrid .row-group-actions select.browser-default {
+    display: inline-block;
+    margin: 0 0.5em 0 0.5em;
+    height: 2.5em;
+}
+
+.datagrid .datagrid-selected-rows-count {
+    padding-left: 1em;
+}

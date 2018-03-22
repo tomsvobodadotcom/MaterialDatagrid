@@ -1,0 +1,18 @@
+{**
+ * @param Filter                $filter
+ * @param Nette\Forms\Container $input
+*}
+
+{var $container = $input}
+
+{if $outer}
+    {label $container['from'] /}
+    {input $container['from'], style => 'width: 35%'}
+    &nbsp;&nbsp;
+    &dash;
+    &nbsp;&nbsp;
+    {input $container['to'], style => 'width: 35%;'} 
+{else}
+    {input $container['from']}
+    {input $container['to']}
+{/if}

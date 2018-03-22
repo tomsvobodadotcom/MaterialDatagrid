@@ -1,0 +1,14 @@
+{**
+ * @param Filter                         $filter
+ * @param Nette\Forms\Controls\TextInput $input
+ * @param string                         $icon_prefix       Icon prefix (fa fa-)
+*}
+
+{if $outer}
+    {input $input, class => datepicker}
+    {label $input /}
+{else}
+
+    {input $input, class => datepicker}  
+
+{/if}
