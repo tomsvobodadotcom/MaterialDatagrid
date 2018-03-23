@@ -1,12 +1,17 @@
 {
     "name": "TS/MaterialDatagrid",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "type": "library",
     "description": "Materialized Ublaboo's great datagrid",
     "authors": [
         {
             "name": "Tom Svoboda",
             "email": "github@tomsvoboda.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Jan Holas",
+            "email": "blackfox00@gmail.com",
             "role": "Developer"
         }
     ],
