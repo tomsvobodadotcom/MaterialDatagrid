@@ -287,7 +287,7 @@
 										</td>
 									</tr>
 								{else}
-									<tr data-id="{$row->getId()}" n:snippet="item-{$row->getId()}" n:class="$row->getControlClass()">
+									<tr data-id="{$row->getId()}" n:snippet="item-{$row->getId()}" n:class="$row->getControlClass()" n:attr="style => $row->getControl()->getAttribute('style')">
 										<td n:if="$hasGroupActions" class="col-checkbox">
 											{if $row->hasGroupAction()}
                                                                                             <label>
